@@ -375,6 +375,7 @@ gBattleAnims_Moves::
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	.4byte Move_AIR_SLASH
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -6370,6 +6371,24 @@ Move_WATER_GUN:
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
 	end
+
+Move_AIR_SLASH:
+    loadspritegfx ANIM_TAG_AIR_WAVE_2
+    loadspritegfx ANIM_TAG_IMPACT
+    loadspritegfx ANIM_TAG_CUT
+    monbg ANIM_DEF_PARTNER
+    splitbgprio ANIM_TARGET
+    setalpha 12, 8
+    call AeroblastBeam
+    createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 2, 0, 8, 1
+    waitforvisualfinish
+    createsprite gAirCutterSliceSpriteTemplate, ANIM_ATTACKER, 2, 40, -32, 0, 2
+    playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+    waitforvisualfinish
+    clearmonbg ANIM_DEF_PARTNER
+    blendoff
+    delay 0
+    end
 
 Move_CRABHAMMER:
 	loadspritegfx ANIM_TAG_ICE_CRYSTALS
