@@ -5333,4 +5333,43 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .category= MOVE_CATEGORY_SPECIAL,
     },
+    [MOVE_DRACO_METEOR] =
+    {
+        .effect = EFFECT_OVERHEAT,
+        .power = 130,
+        .type = TYPE_DRAGON,
+        .accuracy = 90,
+        .pp = 5,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
+    },
+    [MOVE_FORCE_PALM] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 60,
+        .type = TYPE_FIGHTING,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
+    [MOVE_DISCHARGE] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 80,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
+    },
 };

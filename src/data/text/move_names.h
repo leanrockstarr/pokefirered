@@ -382,4 +382,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_MUD_BOMB]      = _("MUD BOMB"),
     [MOVE_ICE_SHARD]     = _("ICE SHARD"),
     [MOVE_LAVA_PLUME]    = _("LAVA PLUME"),
+    [MOVE_DRACO_METEOR]  = _("DRACO METEOR"),
+    [MOVE_FORCE_PALM]    = _("FORCE PALM"),
+    [MOVE_DISCHARGE]     = _("DISCHARGE"),
 };

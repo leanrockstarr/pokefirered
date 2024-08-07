@@ -383,6 +383,9 @@ const u8 gMoveDescription_NastyPlot[] = _("null");
 const u8 gMoveDescription_MudBomb[] = _("null");
 const u8 gMoveDescription_IceShard[] = _("null");
 const u8 gMoveDescription_LavaPlume[] = _("null");
+const u8 gMoveDescription_DracoMeteor[] = _("null");
+const u8 gMoveDescription_ForcePlam[] = _("null");
+const u8 gMoveDescription_Discharge[] = _("null");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -767,4 +770,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_MUD_BOMB      - 1] = gMoveDescription_MudBomb,
     [MOVE_ICE_SHARD     - 1] = gMoveDescription_IceShard,
     [MOVE_LAVA_PLUME    - 1] = gMoveDescription_LavaPlume,
+    [MOVE_DRACO_METEOR  - 1] = gMoveDescription_DracoMeteor,
+    [MOVE_FORCE_PALM    - 1] = gMoveDescription_ForcePlam,
+    [MOVE_DISCHARGE     - 1] = gMoveDescription_Discharge,
 };

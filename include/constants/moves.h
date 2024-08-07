@@ -384,8 +384,11 @@
 #define MOVE_MUD_BOMB 380
 #define MOVE_ICE_SHARD 381
 #define MOVE_LAVA_PLUME 382
+#define MOVE_DRACO_METEOR 383
+#define MOVE_FORCE_PALM 384
+#define MOVE_DISCHARGE 385
 
-#define MOVES_COUNT 383
+#define MOVES_COUNT 386
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
