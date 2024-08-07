@@ -376,5 +376,10 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_SEED_BOMB]     = _("SEED BOMB"),
     [MOVE_STONE_EDGE]    = _("STONE EDGE"),
     [MOVE_X_SCISSOR]     = _("X-SCISSOR"),
-    [MOVE_ZEN_HEADBUTT]  = _("ZEN HEADBUTT")
+    [MOVE_ZEN_HEADBUTT]  = _("ZEN HEADBUTT"),
+    [MOVE_WOOD_HAMMER]   = _("WOOD HAMMER"),
+    [MOVE_NASTY_PLOT]    = _("NASTY PLOT"),
+    [MOVE_MUD_BOMB]      = _("MUD BOMB"),
+    [MOVE_ICE_SHARD]     = _("ICE SHARD"),
+    [MOVE_LAVA_PLUME]    = _("LAVA PLUME"),
 };

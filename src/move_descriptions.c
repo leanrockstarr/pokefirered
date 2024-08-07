@@ -378,6 +378,11 @@ const u8 gMoveDescription_SeedBomb[] = _("null");
 const u8 gMoveDescription_StoneEdge[] = _("null");
 const u8 gMoveDescription_XScissor[] = _("null");
 const u8 gMoveDescription_ZenHeadbutt[] = _("null");
+const u8 gMoveDescription_WoodHammer[] = _("null");
+const u8 gMoveDescription_NastyPlot[] = _("null");
+const u8 gMoveDescription_MudBomb[] = _("null");
+const u8 gMoveDescription_IceShard[] = _("null");
+const u8 gMoveDescription_LavaPlume[] = _("null");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -756,5 +761,10 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_SEED_BOMB     - 1] = gMoveDescription_SeedBomb,
     [MOVE_STONE_EDGE    - 1] = gMoveDescription_StoneEdge,
     [MOVE_X_SCISSOR     - 1] = gMoveDescription_XScissor,
-    [MOVE_ZEN_HEADBUTT  - 1] = gMoveDescription_ZenHeadbutt
+    [MOVE_ZEN_HEADBUTT  - 1] = gMoveDescription_ZenHeadbutt,
+    [MOVE_WOOD_HAMMER   - 1] = gMoveDescription_WoodHammer,
+    [MOVE_NASTY_PLOT    - 1] = gMoveDescription_NastyPlot,
+    [MOVE_MUD_BOMB      - 1] = gMoveDescription_MudBomb,
+    [MOVE_ICE_SHARD     - 1] = gMoveDescription_IceShard,
+    [MOVE_LAVA_PLUME    - 1] = gMoveDescription_LavaPlume,
 };

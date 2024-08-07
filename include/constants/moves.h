@@ -379,8 +379,13 @@
 #define MOVE_STONE_EDGE 375
 #define MOVE_X_SCISSOR 376
 #define MOVE_ZEN_HEADBUTT 377
+#define MOVE_WOOD_HAMMER 378
+#define MOVE_NASTY_PLOT 379
+#define MOVE_MUD_BOMB 380
+#define MOVE_ICE_SHARD 381
+#define MOVE_LAVA_PLUME 382
 
-#define MOVES_COUNT 378
+#define MOVES_COUNT 383
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
